@@ -1,89 +1,165 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <style type="text/css">
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            #menu-h{
-                background-color: #000;
-                display: block;
-            }
-            #cabeça{
-                text-align: center;
-                color: #fff;
-                margin: 10px;
-            }
-            #corpo{
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 16px;
-                margin-left: 40px;
-                margin-right: 40px;
-            }
-            .menu{
-                list-style:none;
-                border:1px solid #c0c0c0;
-                float:left;
-            }
-            .menu li{
-position:relative;
-float:left;
-border-right:1px solid #c0c0c0;
-}
-            #conteúdo{
-                color: #fff;
-            }
-            #final{
-                height: auto;
-                width: auto;
-            }
-            #rodapé{
-                text-align: center;
-                
-            }
-        </style>
-    </head>
-    <body>
-        <div id="cabeça">
-            <div class="topnav">
-                
-                <input type="text" placeholder="Pesquisar">
-              </div>
-            <img src="img/Supernatural_logo.jpg">
-            
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Supernatural</title>
+    <link rel="shortcut icon" href="fav.ico" />
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #menu-h {
+            background-color: #000;
+            display: block;
+        }
+
+        #cabeça {
+
+            color: #000;
+            margin: 10px;
+        }
+        .topnav{
+            width: 670px;
+            height: 35px;
+            margin-left: 20px;
+            padding-left: 10px;
+            size: 30;
+      
+        }
+
+        #imagem_logo {
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+        #imagem_logo:hover {
+            -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+            filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+        }
+
+        nav {
+            background-color: #000;
+            text-align: center;
+            color: #fff;
+        }
+
+        nav ul {
+            display: inline-flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .sub-menu-1{
+            display: none;
+        }
+
+        #corpo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        #conteúdo {
+            color: #fff;
+        }
+
+        #final {
+            height: auto;
+            width: auto;
+        }
+
+        #rodapé {
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cabeça">
+        <div>
+
+            <input class="topnav" type="text" placeholder="faça uma busca">
+
         </div>
-        <div id="corpo">
-            <div id="conteúdo">
-         
-                <span style="align-items: flex-end;">
-                    home
-                </span>
-                <span style="align-items: flex-end;">
-                     |
-                </span>
-                <span style="align-items: flex-end;">
-                    home
-                </span>
-                <span style="align-items: flex-end;">
-                    |
-               </span>
-                <span style="align-items: flex-end;">
-                    home
-                </span>
-               
-            </div>
+        <center><a href="universosupernatural.com"><img id="imagem_logo" src="Supernatural_logo.jpg"></a> </center>
+    </div>
+
+
+    <div>
+        <nav>
+            <ul>
+                <li> <a href="">Sobre a Série</a> </li>
+                <li> <a href="">Temporadas</a> </li>
+
+                <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="">1º Temporada</a> </li>
+                        <li> <a href="">2º Temporada</a> </li>
+                        <li> <a href="">3º Temporada</a> </li>
+                        <li> <a href="">4º Temporada</a> </li>
+                        <li> <a href="">5º Temporada</a> </li>
+                        <li> <a href="">6º Temporada</a> </li>
+                        <li> <a href="">7º Temporada</a> </li>
+                        <li> <a href="">8º Temporada</a> </li>
+                        <li> <a href="">9º Temporada</a> </li>
+                        <li> <a href="">10º Temporada</a> </li>
+                        <li> <a href="">11º Temporada</a> </li>
+                        <li> <a href="">12º Temporada</a> </li>
+                        <li> <a href="">13º Temporada</a> </li>
+                        <li> <a href="">14º Temporada</a> </li>
+                        <li> <a href="">15º Temporada</a> </li>
+
+                    </ul>
+
+                </div>
+
+
+
+
+                <li> <a href="">Personagens</a> </li>
+                <li> <a href="">The Winchesters</a> </li>
+                <li> <a href="">Melhores Episodios</a> </li>
+
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+
+    <div id="corpo">
+        <div id="conteúdo">
+
+
+
         </div>
-        </div id="final">
-            <div id="rodapé">
-                Desenvolvido por Alisson e Heloísa
-            </div>
-        </div>
-    </body>
+    </div>
+    <br><br>
+    </div id="final">
+    <div id="rodapé">
+        Desenvolvido por Alisson e Heloísa
+    </div>
+    </div>
+</body>
+
 </html>
