@@ -5,33 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universo Supernatural</title>
-    <link rel="shortcut icon" href="fav.ico" />
+    <title>Supernatural</title>
     <style type="text/css">
-        * {
-            margin: 0;
+        body {
             padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
         }
 
-        #menu-h {
+        nav {
+            width: 100%;
+            display: flex;
+            position: fixed;
             background-color: #000;
-            display: block;
+            z-index: 99;
+            position: relative;
         }
 
-        #cabeça {
-
-            color: #000;
-            margin: 10px;
+        nav a {
+            color: #fff;
+            margin: auto 20px auto 40px;
+            text-decoration: none;
+            font-weight: leftsssss;
+            left: 0;
+            position: relative;
         }
-        .topnav{
-            width: 670px;
-            height: 35px;
+
+        nav li {
+            float: left;
+            list-style: none;
             margin-left: 20px;
-            padding-left: 10px;
-            size: 30;
-      
+            left: 0;
+            position: relative;
+        }
+
+        #cabeça {}
+
+        #corpo {}
+
+        img {
+            border-radius: 8px;
+            margin-top: 25px;
         }
 
         #imagem_logo {
@@ -44,122 +57,114 @@
             filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
         }
 
-        nav {
-            background-color: #000;
-            text-align: center;
-            color: #fff;
-        }
+        #conteúdo {}
 
-        nav ul {
-            display: inline-flex;
-            list-style: none;
-        }
+        #final {}
 
-        nav ul li {
-            width: 200px;
-            margin: 10px;
-            padding: 10px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .sub-menu-1{
-            display: none;
-        }
-
-        #corpo {
+        p {
+            margin: 20px;
+            text-align: justify;
+            size: 20;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            margin-left: 40px;
-            margin-right: 40px;
+
         }
 
-        #conteúdo {
-            color: #fff;
-        }
-
-        #final {
-            height: auto;
-            width: auto;
-        }
-
-        #rodapé {
+        footer {
+            width: 80%;
+            height: 60px;
+            position: absolute;
+            bottom: 0;
+            background-color: #000;
+            color: #FFF;
             text-align: center;
+            line-height: 23px;
+        }
+
+        .buscar {
+            width: 200px;
+            height: 20px;
+            margin-left: 20px;
+            padding-left: 15px;
+            text-align: justify;
 
         }
+
+        .final {
+            text-align: center;
+            size: 20;
+            line-height: 65px;
+        }
+
+        .topnav {
+            line-height: 10px;
+            height: 35px;
+            margin-left: 1650px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 100px;
+
+        }
+
+        .redes {
+            line-height: 0px;
+            height: 40px
+        }
+
+        html {
+            width: 80%;
+            margin-left: 187px;
+            background-color: #D3D3D3;
+        }
+
+        #img {
+            /* Aqui você pode alterar */
+            display: flex;
+        }
+
     </style>
 </head>
 
 <body>
     <div id="cabeça">
-        <div>
-
-            <input class="topnav" type="text" placeholder="faça uma busca">
-
-        </div>
-        <center><a href="universosupernatural.com"><img id="imagem_logo" src="Supernatural_logo.jpg"></a> </center>
-    </div>
-
-
-    <div>
         <nav>
+            <a href="#">Sobre a série</a>
             <ul>
-                <li> <a href="">Sobre a Série</a> </li>
-                <li> <a href="">Temporadas</a> </li>
-
-                <div class="sub-menu-1">
-                    <ul>
-                        <li> <a href="">1º Temporada</a> </li>
-                        <li> <a href="">2º Temporada</a> </li>
-                        <li> <a href="">3º Temporada</a> </li>
-                        <li> <a href="">4º Temporada</a> </li>
-                        <li> <a href="">5º Temporada</a> </li>
-                        <li> <a href="">6º Temporada</a> </li>
-                        <li> <a href="">7º Temporada</a> </li>
-                        <li> <a href="">8º Temporada</a> </li>
-                        <li> <a href="">9º Temporada</a> </li>
-                        <li> <a href="">10º Temporada</a> </li>
-                        <li> <a href="">11º Temporada</a> </li>
-                        <li> <a href="">12º Temporada</a> </li>
-                        <li> <a href="">13º Temporada</a> </li>
-                        <li> <a href="">14º Temporada</a> </li>
-                        <li> <a href="">15º Temporada</a> </li>
-
-                    </ul>
-
-                </div>
-
-
-
-
-                <li> <a href="">Personagens</a> </li>
-                <li> <a href="">The Winchesters</a> </li>
-                <li> <a href="">Melhores Episodios</a> </li>
-
+                <li>
+                    <a href="">Temporadas</a>
+                </li>
+                <li>
+                    <a href="">Personagens</a>
+                </li>
+                <li>
+                    <a href="">The Winchesters</a>
+                </li>
             </ul>
 
-
         </nav>
-
     </div>
-
-
     <div id="corpo">
-        <div id="conteúdo">
+        <div>
 
-
+            <center><img id="imagem_logo" src="Supernatural_logo.jpg"></center>
+            <hr />
 
         </div>
-    </div>
-    <br><br>
-    </div id="final">
-    <div id="rodapé">
-        Desenvolvido por Alisson e Heloísa
-    </div>
-    </div>
+<!---->
+        <figure id="img" style="float: left">
+            <img src="https://www.enwallpaper.com/wp-content/uploads/3f0444a85b2c7077d57c2b9bb4b12779.jpg" alt=""/>
+        </figure>  
+        
+       <b><h2 align="center">Sinopse</h2></b> 
+        <p class=""> Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam passou a procurar vingança contra as forças do mal que mataram a esposa, destruindo qualquer ser maligno que cruze o seu caminho. Ao contrário de Sam, Dean (Jensen Ackles), seu irmão mais velho, sempre quis seguir os passos do pai. Sam parece determinado a se livrar do "negócio da família", mas sua vida está prestes a tomar um rumo indesejado quando não lhe resta outra escolha a não ser se unir ao irmão. </p>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_hlkNQL5Ecg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="final">
+
 </body>
+<footer>
+
+    <p style="text-align: center;">Todos os direitos reservados</p>
+
+</footer>
 
 </html>
