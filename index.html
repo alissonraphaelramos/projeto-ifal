@@ -7,10 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supernatural</title>
     <style type="text/css">
+        html {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #D3D3D3;
+            height: 100%;
+        }
+
+        html #tudo {
+            height: 100%;
+            /* hack para IE6 que trata height como min-height */
+        }
+
+        #tudo {
+            min-height: 100%;
+            position: relative;
+            ...
+        }
+
         body {
             padding: 0;
             margin: 0;
+            height: 100%;
         }
+
+        #conteudo {
+            padding-bottom: 30px;
+        }
+
 
         nav {
             width: 100%;
@@ -38,10 +63,6 @@
             position: relative;
         }
 
-        #cabeça {}
-
-        #corpo {}
-
         img {
             border-radius: 8px;
             margin-top: 25px;
@@ -57,9 +78,6 @@
             filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
         }
 
-        #conteúdo {}
-
-        #final {}
 
         p {
             margin: 20px;
@@ -72,7 +90,7 @@
         footer {
             width: 80%;
             height: 60px;
-            position: absolute;
+            position: fixed;
             bottom: 0;
             background-color: #000;
             color: #FFF;
@@ -110,22 +128,15 @@
             height: 40px
         }
 
-        html {
-            width: 80%;
-            margin-left: 187px;
-            background-color: #D3D3D3;
-        }
-
         #img {
             /* Aqui você pode alterar */
             display: flex;
         }
-
     </style>
 </head>
 
 <body>
-    <div id="cabeça">
+    <div id="tudo">
         <nav>
             <a href="#">Sobre a série</a>
             <ul>
@@ -141,25 +152,35 @@
             </ul>
 
         </nav>
-    </div>
-    <div id="corpo">
+
         <div>
 
             <center><img id="imagem_logo" src="Supernatural_logo.jpg"></center>
             <hr />
 
         </div>
-<!---->
-        <figure id="img" style="float: left">
-            <img src="https://www.enwallpaper.com/wp-content/uploads/3f0444a85b2c7077d57c2b9bb4b12779.jpg" alt=""/>
-        </figure>  
-        
-       <b><h2 align="center">Sinopse</h2></b> 
-        <p class=""> Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam passou a procurar vingança contra as forças do mal que mataram a esposa, destruindo qualquer ser maligno que cruze o seu caminho. Ao contrário de Sam, Dean (Jensen Ackles), seu irmão mais velho, sempre quis seguir os passos do pai. Sam parece determinado a se livrar do "negócio da família", mas sua vida está prestes a tomar um rumo indesejado quando não lhe resta outra escolha a não ser se unir ao irmão. </p>
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_hlkNQL5Ecg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div id="final">
+        <div id="conteudo">
+            <figure id="img" style="float: left">
+                <img src="https://www.enwallpaper.com/wp-content/uploads/bc1qs8x6caxpkns9szm37d8csd6ej4nr67qx3hk732.jpg" alt="" />
+            </figure>
 
+            <b>
+                <h2 align="center">Sinopse</h2>
+            </b>
+            <p class=""> Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado.
+                Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam passou a procurar vingança contra as
+                forças do mal que mataram a esposa, destruindo qualquer ser maligno que cruze o seu caminho. Ao
+                contrário de Sam, Dean (Jensen Ackles), seu irmão mais velho, sempre quis seguir os passos do pai. Sam
+                parece determinado a se livrar do "negócio da família", mas sua vida está prestes a tomar um rumo
+                indesejado quando não lhe resta outra escolha a não ser se unir ao irmão. </p>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_hlkNQL5Ecg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </div>
 </body>
 <footer>
 
